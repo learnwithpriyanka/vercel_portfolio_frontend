@@ -27,7 +27,7 @@ export default function ContactSection() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:5000/contact', {
+      const response = await fetch('https://vercel-portfolio-backend-sooty.vercel.app/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
