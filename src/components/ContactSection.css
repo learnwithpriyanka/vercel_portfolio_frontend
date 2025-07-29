@@ -239,6 +239,14 @@
   margin-bottom: 1.2rem;
 }
 
+.success-modal button {
+  background: #4f6cf7;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.9rem 2.2rem;
+}
+
 /* Responsive */
 @media (max-width: 1100px) {
   .contact-section .container {
